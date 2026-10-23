@@ -1,4 +1,5 @@
 import './App.css'
+import Card from './Card.tsx'
 
 function App() {
 
@@ -6,6 +7,13 @@ function App() {
   return (
     <>
       <h1>Willkommen</h1>
+
+      <div className="card-container">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+
     </>
   )
 }

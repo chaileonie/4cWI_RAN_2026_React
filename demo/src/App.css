@@ -1,5 +1,17 @@
 h1 {
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.card-container {
+    display: flex;
+    gap: 16px;
+
 }
