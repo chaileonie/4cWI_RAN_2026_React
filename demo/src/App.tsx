@@ -1,5 +1,7 @@
 import './App.css'
 import Card from './Card.tsx'
+import Sidebar from './Sidebar.tsx'
+import Menu from './Menu.tsx'
 
 function App() {
 
@@ -12,6 +14,14 @@ function App() {
         <Card />
         <Card />
         <Card />
+      </div>
+
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+
+      <div className="menu">
+        <Menu />
       </div>
 
     </>
