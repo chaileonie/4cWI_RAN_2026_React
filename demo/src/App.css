@@ -4,12 +4,6 @@ h1 {
     top: 40px;
 }
 
-.card {
-    border: 1px solid #ccc;
-    border-radius: 0px;
-    padding: 16px;
-    margin: 16px;
-}
 
 .card-container {
     display: flex;
@@ -36,4 +30,19 @@ h1 {
     background-color: #3e487e;
     display: flex;
     justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.component_2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

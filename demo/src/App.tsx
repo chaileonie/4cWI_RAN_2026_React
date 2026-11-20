@@ -2,6 +2,7 @@ import './App.css'
 import Card from './Card.tsx'
 import Sidebar from './Sidebar.tsx'
 import Menu from './Menu.tsx'
+import Component_2 from './Component_2.tsx'
 
 function App() {
 
@@ -22,6 +23,10 @@ function App() {
 
       <div className="menu">
         <Menu />
+      </div>
+
+      <div className="component_2">
+        <Component_2 />
       </div>
 
     </>
