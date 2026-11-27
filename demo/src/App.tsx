@@ -12,12 +12,11 @@ function App() {
       <h1>Willkommen</h1>
 
       <div className={styles.cardcontainer}>
-        <Card />
-        <Card />
-        <Card />
-      </div>
+        <Card title="Peter" text="Hallo, ich bin Peter!" image="https://picsum.photos/150/200" />
+        <Card title="Susi" text="Hallo, ich bin Susi!" image="https://picsum.photos/100/200" />
 
-      <div className="sidebar">
+      </div>
+      <div className={styles.sidebar}>
         <Sidebar />
       </div>
 
