@@ -1,8 +1,8 @@
-import './App.css'
+
 import Card from './Card.tsx'
 import Sidebar from './Sidebar.tsx'
 import Menu from './Menu.tsx'
-import Component_2 from './Component_2.tsx'
+import styles from './App.module.css'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <>
       <h1>Willkommen</h1>
 
-      <div className="card-container">
+      <div className={styles.cardcontainer}>
         <Card />
         <Card />
         <Card />
@@ -25,9 +25,6 @@ function App() {
         <Menu />
       </div>
 
-      <div className="component_2">
-        <Component_2 />
-      </div>
 
     </>
   )

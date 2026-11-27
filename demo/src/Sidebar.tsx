@@ -1,10 +1,10 @@
-import React from 'react'
+import styles from './Sidebar.module.css'
 
 type Props = {}
 
 export default function Sidebar({ }: Props) {
     return (
-        <div className="sidebar">
+        <div className={styles.sidebar}>
             <h1>News</h1>
             <div>Sport</div>
             <div>Wetter</div>

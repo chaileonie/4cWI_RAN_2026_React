@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    top: 40px;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 16px;
+    margin: 16px;
+}
