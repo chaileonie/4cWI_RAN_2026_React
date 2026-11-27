@@ -13,7 +13,7 @@ function App() {
 
       <div className={styles.cardcontainer}>
         <Card title="Peter" text="Hallo, ich bin Peter!" image="https://picsum.photos/150/200" />
-        <Card title="Susi" text="Hallo, ich bin Susi!" image="https://picsum.photos/100/200" />
+        <Card title="Susi" text="Hallo, ich bin Susi!" image="https://picsum.photos/150/200" />
 
       </div>
       <div className={styles.sidebar}>

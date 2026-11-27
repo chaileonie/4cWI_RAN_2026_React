@@ -9,11 +9,13 @@ type Props = {
 }
 
 export default function Card({ title, text, image }: Props) {
+    const random = Math.random()
     return (
         <div className={styles.card}>
             <h2>{title}</h2>
-            <img src={image} />
+            <img src={image + "?" + random} />
             <p>{text}</p>
+
         </div>
     )
 }
