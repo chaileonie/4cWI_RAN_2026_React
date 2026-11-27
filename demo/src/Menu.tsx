@@ -1,14 +1,17 @@
 import styles from './Menu.module.css'
 
-type Props = {}
+type Props = {
+    title: string;
+    description: string;
+}
 
-export default function Menu({ }: Props) {
+export default function Menu({ title, description }: Props) {
     return (
         <div className={styles.menu}>
-            <div>Menu</div>
-            <div>Home</div>
-            <div>About</div>
-            <div>Contact</div>
+            <div>{title}
+                <div className={styles.description}>{description}</div>
+            </div>
+
         </div>
     )
 }

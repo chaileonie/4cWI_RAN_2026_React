@@ -17,11 +17,13 @@ function App() {
 
       </div>
       <div className={styles.sidebar}>
-        <Sidebar />
+        <Sidebar title="Navigation" numbering={1} />
+
+
       </div>
 
-      <div className="menu">
-        <Menu />
+      <div className={styles.menu}>
+        <Menu title="Home" description="Willkommen auf unserer Website" />
       </div>
 
 

@@ -1,14 +1,16 @@
 import styles from './Sidebar.module.css'
 
-type Props = {}
+type Props = {
+    title: string;
+    numbering: number;
+}
 
-export default function Sidebar({ }: Props) {
+export default function Sidebar({ title, numbering }: Props) {
     return (
         <div className={styles.sidebar}>
-            <h1>News</h1>
-            <div>Sport</div>
-            <div>Wetter</div>
-            <div>Politik</div>
+
+            <div>{title} {numbering}</div>
+
         </div>
     )
 }

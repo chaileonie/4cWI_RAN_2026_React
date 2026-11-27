@@ -8,3 +8,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.description {
+    font-size: 0.8rem;
+    color: #ffffff;
+    align-self: center;
+}
